@@ -1,0 +1,8 @@
+weather app;
+http://api.weatherstack.com/ da üyelik oluşturup hesap açtım  verilen access key ile requestler yapılır.
+--Rest template config ile requette kullanancağımız rest templati oluştutuyoruz 
+--rest template getfor entity ile request yapılıyor,
+--1 adet custom constraint oluştutrluyor ve bunu vvalidate edecek validator kullanılıyor bu constarint daha sonra controllerda kullanılır.
+--dockerize etmek için docker compose kullanılır ve dockefile bunları sabit gibi düşünebilirsin duruma göre değişiklikleri yaparsın
+--prometheus ve grphana eklendi ama tam anlamadım  app prometheus ve grafananın haberleşmesi için aynı networkte ıollması gerekiyor bir network oluşturuldu docker composeiçinde
+--@EnableScheduling ile schedule job  kullanılacağını söyle
